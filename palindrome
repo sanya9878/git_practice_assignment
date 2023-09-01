@@ -1,9 +1,24 @@
-let a="qwer"
-for(let i=0;i<a.length;a++)
-{
-if(a==b)
 
-console.log("palindrome")
-else
-console.log("not palindrome")
+
+function detectPalindrome(num){
+//write code here
+
+
+let bag="";
+let str="";
+str+=num;
+
+
+for(let i=str.length-1;i>=0;i--){
+ bag+=str[i];
+    
 }
+
+
+  (bag == num ? console.log("Yes"):console.log("No"));
+    
+     
+ 
+
+}
+detectPalindrome(1221)
