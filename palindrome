@@ -1,0 +1,9 @@
+let a="qwer"
+for(let i=0;i<a.length;a++)
+{
+if(a==b)
+
+console.log("palindrome")
+else
+console.log("not palindrome")
+}
